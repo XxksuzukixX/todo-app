@@ -90,7 +90,7 @@
             </div>
             {{-- 期日が迫った未着手タスク --}}
             <div class="my-6">
-                <h3 class="text-lg font-semibold mb-4">期日が近い</h3>
+                <h3 class="text-lg font-semibold mb-4">期日が近いタスク</h3>
                 <ul class="space-y-2">
                     @forelse ($upcomingTasks as $task)
                         <li class="p-3 border rounded flex justify-between items-center hover:bg-gray-50">
