@@ -72,7 +72,7 @@
 
                 {{-- 総タスク数 --}}
                 <div class="bg-blue-50 p-6 rounded-lg shadow">
-                    <h3 class="text-sm text-gray-500">完了タスク数</h3>
+                    <h3 class="text-sm text-gray-500">完了タスク</h3>
                     <p class="text-3xl font-bold text-blue-600 mt-2">{{ $statusCounts['done'] }}</p>
                 </div>
 
